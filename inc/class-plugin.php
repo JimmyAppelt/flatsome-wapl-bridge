@@ -42,7 +42,7 @@ final class Plugin {
 	}
 
 	/**
-	 * Add admin menu toolbar item with branch info
+	 * Restructure hooks
 	 */
 	public function restructure_hooks() {
 		if ( class_exists( 'WAPL_Single_Labels' ) ) {
