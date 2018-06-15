@@ -19,3 +19,7 @@
 3. With your FTP program, upload the folder to your `/wp-content/plugins/` directory.
 4. Go to the Plugins screen and find the Plugin in the list.
 5. Click **Activate** to activate it.
+
+## Updates
+
+To receive updates for this plugin, install <a href="https://github.com/afragen/github-updater/wiki/General-Usage" target="blank">Github Updater</a>
