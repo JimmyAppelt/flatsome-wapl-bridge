@@ -1,5 +1,5 @@
 # Flatsome WooCommerce Advanced Product Labels Bridge
-[![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](https://github.com/JimmyAppelt/flatsome-custom-product-hooks/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](https://github.com/JimmyAppelt/flatsome-wapl-bridge/blob/master/LICENSE)
 [![Auto Update](https://img.shields.io/badge/updates-GitHub%20Updater-brightgreen.svg)](https://github.com/afragen/github-updater/wiki/General-Usage)
 
 ## Installation
