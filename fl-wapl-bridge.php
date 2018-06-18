@@ -8,7 +8,7 @@
  * @wordpress-plugin
  * Plugin Name:       Flatsome WAPL Bridge
  * Description:       Flatsome WooCommerce Advanced Product Labels Bridge.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Plugin URI:        https://github.com/JimmyAppelt/flatsome-wapl-bridge
  * GitHub Plugin URI: https://github.com/JimmyAppelt/flatsome-wapl-bridge
  * Author:            Jim Appelt
