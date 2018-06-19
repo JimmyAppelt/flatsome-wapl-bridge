@@ -1,3 +1,6 @@
+- 1.0.2 -
+Add: Single product restructure.
+
 - 1.0.1 -
-Add: WooCommerce test version
+Add: WooCommerce test version.
 
