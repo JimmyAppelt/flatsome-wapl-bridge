@@ -34,7 +34,7 @@ final class Plugin {
 	 * Plugin constructor.
 	 */
 	public function __construct() {
-		include_once dirname( __FILE__ ) . '/class-conditionals.php';
+		$this->include();
 		$this->conditionals = new Conditionals();
 
 		// Hook us in.
@@ -75,6 +75,13 @@ final class Plugin {
 			remove_action( 'woocommerce_product_thumbnails', [ $global_labels, 'global_label_hook' ], 9 );
 			add_action( 'flatsome_sale_flash', [ $global_labels, 'global_label_hook' ], 9 );
 		}
+	}
+
+	/**
+	 * Plugin Files to include.
+	 */
+	private function include(){
+		include_once dirname( __FILE__ ) . '/class-conditionals.php';
 	}
 
 	/**
