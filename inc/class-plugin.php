@@ -100,6 +100,9 @@ final class Plugin {
 			.label-wrap.wapl-corner.wapl-alignleft .product-label {
 				top: -22px;
 			}
+			.badge .on-sale {
+				display: none;
+			}
 		</style>
 		<?php
 	}
