@@ -80,7 +80,7 @@ final class Plugin {
 	/**
 	 * Plugin Files to include.
 	 */
-	private function include(){
+	private function include() {
 		include_once dirname( __FILE__ ) . '/class-conditionals.php';
 	}
 
@@ -99,6 +99,9 @@ final class Plugin {
 			}
 			.label-wrap.wapl-corner.wapl-alignleft .product-label {
 				top: -22px;
+			}
+			.badge .on-sale {
+				display: none;
 			}
 		</style>
 		<?php

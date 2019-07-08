@@ -1,3 +1,6 @@
+- 1.0.3 -
+Fix: Hide sale label.
+
 - 1.0.2 -
 Add: Single product restructure.
 

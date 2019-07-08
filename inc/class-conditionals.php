@@ -20,8 +20,8 @@ class Conditionals {
 	 * @return bool
 	 */
 	public function is_flatsome_activated() {
-		$theme   = wp_get_theme( get_template() );
-		$name    = $theme->get( 'Name' );
+		$theme = wp_get_theme( get_template() );
+		$name  = $theme->get( 'Name' );
 
 		return 'Flatsome' === $name;
 	}
