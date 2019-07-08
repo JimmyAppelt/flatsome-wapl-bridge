@@ -34,7 +34,7 @@ use Flwapl\Inc\Plugin;
 
 defined( 'ABSPATH' ) || exit;
 
-include_once dirname( __FILE__ ) . '/inc/class-plugin.php';
+require_once dirname( __FILE__ ) . '/inc/class-plugin.php';
 
 /**
  * Main instance of the plugin.

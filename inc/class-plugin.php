@@ -80,7 +80,7 @@ final class Plugin {
 	/**
 	 * Plugin Files to include.
 	 */
-	private function include(){
+	private function include() {
 		include_once dirname( __FILE__ ) . '/class-conditionals.php';
 	}
 
