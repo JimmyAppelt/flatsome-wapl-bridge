@@ -70,7 +70,7 @@ final class Plugin {
 			$global_labels = WooCommerce_Advanced_Product_Labels()->global_labels;
 			// Archive.
 			remove_action( 'woocommerce_before_shop_loop_item_title', [ $global_labels, 'global_label_hook' ], 15 );
-			add_action( 'woocommerce_before_shop_loop_item', [ $global_labels, 'global_label_hook' ], 15 );
+			add_action( 'flatsome_woocommerce_shop_loop_images', [ $global_labels, 'global_label_hook' ], 15 );
 			// Single.
 			remove_action( 'woocommerce_product_thumbnails', [ $global_labels, 'global_label_hook' ], 9 );
 			add_action( 'flatsome_sale_flash', [ $global_labels, 'global_label_hook' ], 9 );
